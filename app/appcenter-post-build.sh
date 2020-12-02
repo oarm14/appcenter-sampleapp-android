@@ -13,4 +13,5 @@ sonar-scanner \
   -Dsonar.organization=oarm14 \
   -Dsonar.projectKey=oarm14_appcenter-sampleapp-android \
   -Dsonar.sources=./src \
-  -Dsonar.host.url=https://sonarcloud.io
+  -Dsonar.host.url=https://sonarcloud.io \
+  -Dsonar.java.binaries=.build\libs\
