@@ -12,5 +12,5 @@ export SONAR_SCANNER_OPTS="-server"
 sonar-scanner \
   -Dsonar.organization=oarm14 \
   -Dsonar.projectKey=oarm14_appcenter-sampleapp-android \
-  -Dsonar.sources=. \
+  -Dsonar.sources=./app/src \
   -Dsonar.host.url=https://sonarcloud.io
